@@ -31,6 +31,9 @@ $ sudo dkms add mt7610u_sta/1.0
 $ sudo dkms build mt7610u_sta/1.0
 $ sudo dkms install mt7610u_sta/1.0
 ```
+# DKMS & Ubunti 18.04
+- Add **cfg80211** module to /etc/modules
+- Reboot
 
 # ARMv7 platform notes (e.g. Raspberry PI)
 
